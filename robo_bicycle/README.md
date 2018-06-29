@@ -1,8 +1,12 @@
 # Робот-велосипедист
 В данном разделе будет разобран принцип работы адаптивной системы на примере робота-велосипедиста   
 ## Построение математической модели
-Начнем с ппростого - создадим математическую модель простого велосипеда, параметры которого заранее полность юзвестны
-![](https://github.com/Zenkin/adaptive_control_systems/blob/master/robo_bicycle/simulation_results/math_model.jpg "")
+Построим математическую модель велосипеда, параметры которого полностью известы. Вывод математической модели приведен ниже (рисунок 1):  
+![](https://github.com/Zenkin/adaptive_control_systems/blob/master/robo_bicycle/pics/maths.jpg "")    
+Математическая модель (рисунок 2):    
+![](https://github.com/Zenkin/adaptive_control_systems/blob/master/robo_bicycle/pics/cxem.jpg "")     
+Результат моделирования приведён ниже (рисунок 3):     
+![](https://github.com/Zenkin/adaptive_control_systems/blob/master/robo_bicycle/simulation_results/constant_input.jpg "")     
 ### Входное воздействие - синусоида
 Произведём моделирование данной модели   
 + (t = 100 сек):      
